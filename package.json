@@ -1,0 +1,19 @@
+{
+  "name": "ts-project",
+  "version": "0.1.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "debug": "node --inspect-brk dist/main.js",
+    "type-check": "tsc --watch --pretty",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": "git@github.com:zzyyxxww/ts-project",
+  "author": "zzyyxxww <guidotarsia@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "typescript": "^4.6.3"
+  }
+}
