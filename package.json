@@ -7,13 +7,17 @@
     "debug": "node --inspect-brk dist/main.js",
     "type-check": "tsc --watch --pretty",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:debug": "node --inspect-brk node_modules/.bin/jest --runInBand"
   },
   "repository": "git@github.com:zzyyxxww/ts-project",
   "author": "zzyyxxww <guidotarsia@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^27.4.1",
     "jest": "^27.5.1",
+    "ts-expect": "^1.3.0",
+    "ts-jest": "^27.1.4",
     "typescript": "^4.6.3"
   }
 }
